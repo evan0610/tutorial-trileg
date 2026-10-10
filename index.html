@@ -179,17 +179,16 @@
     }
   </style>
 <link data-rectification="1" href="presentation-support.css" rel="stylesheet"/><script data-rectification="1" defer="" src="presentation-support.js"></script><link href="academic-theme.css" rel="stylesheet"/><script defer="" src="academic-ui.js"></script></head>
-<body class="theme-evan academic-project"><nav class="top-nav" id="navigation"><div class="nav-container"><div class="nav-left"><a href="https://tianchun-research-atlas.husheddaisy64.chatgpt.site">Research atlas ↗</a></div><div class="academic-tools site-language"><button aria-controls="navigation" aria-expanded="false" aria-label="Menu" class="menu menu-toggle">Menu</button><button aria-label="Switch to dark theme" class="theme-toggle" data-theme-toggle="">☾</button></div></div></nav><div class="wrapper"><header class="sidebar"><div class="profile-card"><h2 class="project-identity">Tri-Leg Tutorial</h2><div class="visitor-card"><div class="visitor-card-title">On this page</div><div class="academic-toc"></div></div></div></header><main class="content academic-main"><p class="academic-eyebrow">RESEARCH PROJECT / 连续体机器人</p><h1 class="academic-title">Tri-Leg Tutorial</h1>
+<body class="theme-evan academic-project single-project"><nav class="top-nav" id="navigation"><div class="nav-container"><div class="nav-left"><a href="https://tianchun-research-atlas.husheddaisy64.chatgpt.site">Research atlas ↗</a></div><div class="academic-tools site-language"><button aria-controls="navigation" aria-expanded="false" aria-label="Menu" class="menu menu-toggle">Menu</button><button aria-label="Switch to dark theme" class="theme-toggle" data-theme-toggle="">☾</button></div></div></nav><div class="wrapper"><header class="sidebar"><div class="profile-card"><h2 class="project-identity">Tri-Leg Tutorial</h2><div class="visitor-card"><div class="visitor-card-title">ON THIS PAGE</div><div class="academic-toc"></div></div></div></header><main class="content academic-main"><p class="academic-eyebrow">ROBOTICS TUTORIAL · RESEARCH PROJECT</p><h1 class="academic-title">Tri-Leg Tutorial</h1>
 <section class="hero visible">
 <div class="label">Tutorial Video</div>
-<p class="research-note">Tri-Leg · Operating tutorial and system demonstration.</p><p class="academic-lead">Tri-Leg Tutorial</p><p class="media-caption">系统演示入口；完整操作教程、章节与字幕待作者补充。</p>
 <p class="subtitle">
         A concise video tutorial for the Tri-Leg system demonstration.
       </p>
 </section>
 <section class="video-card visible">
 <div class="video-wrap">
-<video aria-label="Tri-Leg Tutorial demonstration" controls="" id="tutorialVideo" playsinline="" preload="metadata">
+<video aria-label="Tri-Leg Tutorial demonstration" controls="" id="tutorialVideo" playsinline="" poster="assets/images/tutorial-poster.jpg" preload="metadata">
 <source src="assets/videos/tutorial_trileg.mp4" type="video/mp4"/>
 </video>
 <div class="fallback" id="fallback">
@@ -205,8 +204,7 @@
         Open Video in New Tab
       </a>
 </div>
-
-</main><footer class="site-footer"><p>Research in progress · Evidence and implementation limits are stated with each project.</p></footer></div><script>
+</main><footer class="site-footer"><p>Tri-Leg Tutorial · Robotics Research</p></footer></div><script>
     const video = document.getElementById("tutorialVideo");
     const fallback = document.getElementById("fallback");
 
@@ -214,12 +212,5 @@
       fallback.style.display = "flex";
       video.style.display = "none";
     });
-
-    setTimeout(function () {
-      if (video.networkState === 3 || video.readyState === 0) {
-        fallback.style.display = "flex";
-        video.style.display = "none";
-      }
-    }, 1800);
   </script></body>
 </html>
